@@ -1,0 +1,11 @@
+title: 
+  KHOTEMAL
+
+source: 
+  res/
+
+destination: 
+  dist/
+
+plugins: 
+  - jekyll-feed
