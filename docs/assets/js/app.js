@@ -14,3 +14,7 @@ function auth(username, password, callback, mode = 'login') {
     xhr.open('POST', `${host}/auth/${mode}`, true)
     xhr.send(form)
 }
+
+function $(CSS_Selector) {
+    return document.querySelector(CSS_Selector)
+}

@@ -1,0 +1,6 @@
+/* @import url(normalize.css); */
+@import url(fonts.css);
+
+[lang=mm] {
+    font-family: 'Zawgyi' !important;
+}

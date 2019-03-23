@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'Zawgyi';
+    src: local('Zawgyi-One'), local('zawgyi'), src('fonts/zawgyi.ttf') format('truetype'), src('fonts/zawgyi.woff') format('woff');
+}

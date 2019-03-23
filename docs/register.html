@@ -1,0 +1,41 @@
+---
+layout: default
+title: Register
+---
+
+<div class="container">
+
+    <div class="register">
+        <input type="text" id="username">
+        <input type="password" id="password">
+        <input type="password" id="confirm-password">
+        <input type="email" id="email">
+        <input type="tel" id="account_id">
+    </div>
+
+    <script>
+        let inputs = {
+            user: {
+                el: $('#username'),
+                value: null
+            },
+            pass: {
+                el: $('#password'),
+                value: null
+            },
+            conf: {
+                el: $('#confirm-password'),
+                value: null
+            },
+            email: {
+                el: $('#email'),
+                value: null
+            },
+            accid: {
+                el: $('#account_id'),
+                value: null
+            }
+        }
+    </script>
+
+</div>

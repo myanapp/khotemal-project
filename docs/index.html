@@ -4,3 +4,15 @@ title: HOME
 ---
 
 <h2>Hello World</h2>
+
+<form action="" method="POST">
+    <input type="text" name="username" value="" required>
+    <input type="password" name="password" required>
+    <button type="submit">Login</button>
+</form>
+<a href="/register.html"><button class="buttons-con">Register</button></a>
+
+<script>
+    window.onload = () => document.querySelector('form').action = 'http://localhost:8080/auth/login'
+    // window.onload = () => document.querySelector('form').action = host + '/auth/login'
+</script>
